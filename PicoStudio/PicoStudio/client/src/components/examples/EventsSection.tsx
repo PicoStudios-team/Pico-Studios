@@ -1,0 +1,7 @@
+import EventsSection from '../EventsSection'
+
+export default function EventsSectionExample() {
+  return (
+    <EventsSection onViewAllEvents={() => console.log('View all events clicked')} />
+  )
+}
